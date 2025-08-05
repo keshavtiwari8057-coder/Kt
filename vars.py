@@ -8,13 +8,13 @@ BOT_TOKEN = os.environ.get("BOT_TOKEN", "7551384437:AAGMBpSUebsoggNAQOrlxuFzlqYg
 
 CREDIT = os.environ.get("CREDIT", "〱ＵＧ▕")
 # MongoDB Configuration
-DATABASE_NAME = os.environ.get("DATABASE_NAME", "UGxPRO")
-DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://botexe:botexe@cluster0.pqc0ykw.mongodb.net/")
+DATABASE_NAME = os.environ.get("DATABASE_NAME", "test-1")
+DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://test-1:<iwlt66bJ5lkWYuGh>@test-1.8vzbcf5.mongodb.net/?retryWrites=true&w=majority&appName=test-1/")
 MONGO_URL = DATABASE_URL  # For auth system
 
 # Owner and Admin Configuration
-OWNER_ID = int(os.environ.get("OWNER_ID", "77"))
-ADMINS = [int(x) for x in os.environ.get("ADMINS", "774").split()]  # Default to owner ID
+OWNER_ID = int(os.environ.get("OWNER_ID", "8126127257"))
+ADMINS = [int(x) for x in os.environ.get("ADMINS", "8126127257").split()]  # Default to owner ID
 
 # Channel Configuration
 PREMIUM_CHANNEL = "https://t.me/+W-Q51EuLf2QwYTl"
@@ -59,4 +59,5 @@ Please contact the admin @ItsUGBot to get access.</blockquote>""",
 
 <blockquote>Use format: {format}</blockquote>"""
 }
+
 
